@@ -1,0 +1,50 @@
+# Python / virtualenv
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+*.egg
+
+# ROS 2 workspaces
+build/
+install/
+log/
+*.bag
+*.db
+*.db3
+rosbag2_*/
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.bak
+*.before_*
+*.pre_*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Runtime / generated
+runtime/
+*.log
+
+# Secrets and env files
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*
+secrets*
+tokens*
